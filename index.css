@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  ul {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  header{
+    background: linear-gradient(to right, rgb(142, 14, 0), rgb(31, 28, 24));
+
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .img-wrapper{
+    width: 175px;
+    height: 70px;
+  }
+
+  .img-wrapper img{
+    width: 100%;
+    height: 100%;
+  }
+
+  button{
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+  }
